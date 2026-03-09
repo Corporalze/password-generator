@@ -50,7 +50,7 @@ def validate_inputs(length, use_upper, use_lower, use_numbers, use_symbols):
     if use_lower:
         character_set += string.ascii_lowercase
     if use_numbers:
-        character_set += string.version
+        character_set += string.digits
     if use_symbols:
         character_set += string.punctuation
     
